@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2021 Gentoo Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 1.aux
+The style file: gbt7714-author-year.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: 1.bib
+Warning--empty key in 魯迅1923吶喊
+You've used 5 entries,
+            5617 wiz_defined-function locations,
+            1100 strings with 8561 characters,
+and the built_in function-call counts, 23748 in all, are:
+= -- 563
+> -- 2582
+< -- 3322
++ -- 964
+- -- 148
+* -- 179
+:= -- 3336
+add.period$ -- 18
+call.type$ -- 5
+change.case$ -- 33
+chr.to.int$ -- 824
+cite$ -- 11
+duplicate$ -- 126
+empty$ -- 318
+format.name$ -- 90
+if$ -- 6192
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 43
+num.names$ -- 21
+pop$ -- 1189
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 2421
+stack$ -- 0
+substring$ -- 1042
+swap$ -- 0
+text.length$ -- 62
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 63
+warning$ -- 1
+while$ -- 86
+width$ -- 0
+write$ -- 85
+(There was 1 warning)
