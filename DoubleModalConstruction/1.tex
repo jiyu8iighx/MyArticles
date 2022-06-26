@@ -7,6 +7,8 @@
 %\usepackage{footmisc} % make \footnote link not work
 \usepackage{footnotebackref} % must behind `hyperref` and `footmisc`
 
+\usepackage{multicol}
+
 \usepackage{amssymb, amsmath}
 
 \usepackage{natbib}
@@ -29,22 +31,25 @@
 	\maketitle
 	
 	\section*{标签}
-		\begin{itemize}
-			\item 撰文目的/介绍
-			\item 先修知识/命题逻辑
-			\item 研究对象/元研究,设计对象的现象与一般规律
-			\item 方法/建模,案例分析
-			\item 现实与模型/建模
-			\item 经典领域划分/模态逻辑
-			\item 许可证/CC-BY 4.0
-			\item 语义/概念分析
-			\item 语义/概念/模糊性,可能性/模态
-		\end{itemize}
+		\begin{multicols}{2}
+			\begin{itemize}
+				\item 标签系统版本/0.0.0
+				\item 撰文目的/介绍
+				\item 先修知识/命题逻辑
+				\item 研究对象/元研究,设计对象的现象与一般规律
+				\item 方法/建模,案例分析
+				\item 现实与模型/建模
+				\item 经典领域划分/模态逻辑
+				\item 许可证/CC-BY 4.0
+				\item 语义/概念分析
+				\item 语义/概念/模糊性,可能性/模态
+			\end{itemize}
+		\end{multicols}
 	\section*{摘要}
 		本文介绍模态逻辑公理与关系语义框架，并在这些理论的基础上分析双重模态词的使用。
 		并讨论此类研究对人造语言设计者的意义、此类设计对用户的意义。
 
-	\newpage
+	%\newpage
 
 	\section{模态逻辑}
 
