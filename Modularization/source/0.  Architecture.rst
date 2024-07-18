@@ -1,0 +1,43 @@
+=====================
+Architecture
+=====================
+
+I'll summarize the architecture of the design of this toy language. Before that I want to illustrate a common architecture for comparision.
+
+------------------------
+A common architecture
+------------------------
+
+
+With a given language, people should be able to have certain reaction (memory, inference, emotion, etc.) when they see or hear a "sentence" (and they're also capable for write sentences). And for productivity etc. the sentences must not be structureless, and for a simpler game rule we get some language mey be called "logic" (e.g. first-order logic). We can specify the rule of how to interpret logical expressions with a huge amount of training (especially if it's someone's mother language) or merely a simple textbook.
+
+However there are requirements unmet by many logics, e.g. brackets are good for vision but bad for hearing. For practical use in daily life without destroying the logical structure, we may specify conversion rules between another system of sentences (grammar) and logical formulae. This leads to a 3-level architecture:
+
+- FL: a Formal Logical system
+- HI: a better Human Iinterface bound to that logic, similar to the 
+- SI: a system for Semantic Interpretation (binds logical sentences to meanings)
+
+When the communication efficiency is low, we may prefer 1-dimensional HI. Usually that is, a sequentialized FL.
+
+For conlangers using predicate logic, a simple SI strategy is define predicates by `schemas <https://plato.stanford.edu/entries/schema/>`_ (in the Tarski's sense). That is, to use a sentence template written in a natural language, and interpret a predicate-arugment term as the meaning of the filled natlang sentence. For example, we may define
+
+- ``s := "Socrates"``
+- ``f(x) := "x is a philosopher."``
+
+then interpret ``f(s)`` as ``Socrates is a philosopher`` . This SI may be not good enough, as there may be unwanted/undefined behaviors or different understandings among a community speaking the "same" language.
+
+The schema-predicate strategy is also used in this article to construct simple examples.
+
+------------------------
+The difference
+------------------------
+
+The core feature in my design is an extra level between FL
+
+
+
+
+
+
+
+.. Recently I'm trying to make it more possible for language designers to combine modules or cooperate by understand a common kind of difficulty.
