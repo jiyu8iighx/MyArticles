@@ -1,4 +1,4 @@
-本文依据 [Logical Form (Standford Encyclopedia of Philosophy/Spring 2021 Edition)](https://plato.stanford.edu/archives/fall2021/entries/logical-form/) 翻译而来。我承诺每一句话都经过审视和斟酌，**翻译策略是激进的**以保证阅读效率。不过这对英语翻译与语言哲学水平要求较高，欢迎读者提供建议。
+本文依据 [Logical Form (Standford Encyclopedia of Philosophy/Spring 2021 Edition)](https://plato.stanford.edu/archives/fall2021/entries/logical-form/) 翻译而来。为效率在机器翻译基础上重写，但我承诺每一句话都经过审视和斟酌。欢迎读者提供建议。
 
 译者： [Velt of Alfeberg](mailto:jiyu8iighx@outlook.com)
 
@@ -22,11 +22,11 @@
 
 上文描述这种无懈可击的推理时涉及了一种关于推理安全与否的隐喻，为了说清楚无懈可击的推理和那些有犯错风险的推理之间的这种直觉上的区别，人们开始诉诸于逻辑形式。这种思想是说， (1)~(3) 这样的推理具有特定的结构从而将犯错的风险限制在了前提之内。这思想的发展动机既有实践上的也有理论上的。经验告诉我们，一个推理起初看上去可能比实际的更安全；那么若我们能知道何种<u>形式</u>的推理是无风险的，则有助于避免错误。如我们将看到的，关于推理的主张、关于想法本质及其与语言的关系的主张之间是密切相连的。
 
-许多哲学家都对这样一种可能性很感兴趣：语法可能<u>掩盖</u>了思维的底层结构，这种掩盖可能诱导一些关于「日常语言如何与认知、与我们所谈论的世界相关联」的错误观点。例如，「Homer talked」、「Nobody talked」和「The nymph talked」等句子间的相似性乍一看暗示了与这些句子对应的想法都具有主-谓的形式。但是，「Homer」指示着一个实体，这个实体可以成为想法的“主语”；而且，当且仅当这个实体说话时，该想法才为真。但「没人说话」却不是这样。另外，我们将看到「The」是非常复杂的。哲学家和语言学家也问过关于「逻辑如何联系于语法」的一般性问题。想法和语句是否表现出不同<u>种类</u>的结构？句子是否表现出不明显的<u>语法</u>结构？如果想法的逻辑结构与用来表达想法的句子的语法结构可以很不同，我们又何以臆造关于如 (1)~(6) 这样的推理的逻辑形式的主张？这些主张是否是一种关于「我们应当如何思考/说话」的规范性主张？还是一种关于心理/语言实在的一些方面的经验假定？
+许多哲学家都对这样一种可能性很感兴趣：语法可能<u>掩盖</u>了思维的底层结构，这种掩盖可能诱导一些关于「日常语言如何与认知、与我们所谈论的世界相关联」的错误观点。例如，「Homer talked」、「Nobody talked」和「The nymph talked」等句子间的相似性乍一看暗示了与这些句子对应的想法都具有主-谓的形式。但是，「Homer」指示着一个实体，这个实体可以成为想法的“主语”；而且，当且仅当这个实体说话时，该想法才为真。但「Nobody talked」却不是这样。另外，我们将看到「The」是非常复杂的。哲学家和语言学家也问过关于「逻辑如何联系于语法」的一般性问题。想法和语句是否表现出不同<u>种类</u>的结构？句子是否表现出不明显的<u>语法</u>结构？如果想法的逻辑结构与用来表达想法的句子的语法结构可以很不同，我们又何以臆造关于如 (1)~(6) 这样的推理的逻辑形式的主张？这些主张是否是一种关于「我们应当如何思考/说话」的规范性主张？还是一种关于心理/语言实在的一些方面的经验假定？
 
 人们对这些问题的回答通常与关于「各种推理为何令人信服」的主张相交织。因此，了解「哪些推理真正安全」以及「这些推理有何特殊之处」将是一件好事。最常见的建议是，某些推理因其逻辑形式而安全。（尽管并不令人意外）「形式」这一概念是同「逻辑」和「语言」的概念一同演化至今的。
 
-## 1. Patterns of Reason
+## 1. 推理的模式
 
 一个古老的观点是，在那些无懈可击的推理中把特定前提和结论的具体内容抽象掉、从而揭示出为许多其他的无懈可击推理所共有的一般形式，便能刻画出无懈可击推理所表现出的模式。我们称这些形式以及作为其例证的那些具体推理是有效的。
 
@@ -36,7 +36,7 @@
 
 7. 若Pat在睡觉则Chris游了泳，且Pat在睡觉。所以Chris游了泳。
 
-对此我们说「这些推理是下面的形式的实例」：若 **A** 则 **B** 且 **A** ；所以 **B** 。[斯多葛学派](https://plato.stanford.edu/entries/stoicism/)讨论了此类模式中的几种，他们使用序数（而不是字母）来铺货如下所示的抽象形式。
+对此我们说「这些推理是下面的形式的实例」：若 **A** 则 **B** 且 **A** ；所以 **B** 。[斯多葛学派](https://plato.stanford.edu/entries/stoicism/)讨论了此类模式中的几种，他们使用序数（而不是字母）来描述如下所示的抽象形式。
 
 * If **the first** then **the second**, and **the first**; so **the second**.
 
@@ -46,9 +46,9 @@
 
 * Not both **the first** and **the second**, but **the first**; so not **the second**.
 
-这些模式化的表述用到了所谓变量，变量用粗体表示。按照悠久的传统，我们将用「命题」这一术语来称呼这些变量的含义范围中的任一东西。[命题](https://plato.stanford.edu/entries/propositions/)可以成为前提或结论，可以被认同或拒斥。因此，命题大致来说是可以一种评估真假的东西。这为关于「命题是什么」的各种主张留下了余地：命题是句子、陈述、又或者事态等。我们这里姑且假设陈述句可用于表达命题；可参见 Cartwright (1962) 和关于[结构化命题](https://plato.stanford.edu/entries/propositions-structured/)的文章。
+这些模式化的表述用到了所谓变量，变量用粗体表示。按照悠久的传统，我们将用「命题」这一术语来称呼这些变量的含义范围中的任一东西（whatever these variables range over）。[命题](https://plato.stanford.edu/entries/propositions/)可以成为前提或结论，可以被认同或拒斥。因此，命题大致来说是可以一种评估真假的东西。这为关于「命题是什么」的各种主张留下了余地：命题是句子、陈述、又或者事态等。我们这里姑且假设陈述句可用于表达命题；可参见 Cartwright (1962) 和关于[结构化命题](https://plato.stanford.edu/entries/propositions-structured/)的文章。
 
-一个显著的复杂性在于，在日常对话中，语境对于「给定的句子表达的是哪个命题」而言很重要。例如，「 Pat睡着了」有时可用于表达真前提，有时可用于表达假前提。某个说话者可能使用「我累了」来表达一个假命题，而另一个说话者同时用同一句子表达了一个真命题。怎样才算累了的标准在不同的对话中也可能不同。各类语境敏感性在典型的话语中无处不在。更有甚者，即便给定语境也可能并不表达唯一的命题，如「他是秃的」这样的句子。（代词可能没有指称对象；即使有，「秃头」的[模糊性](https://plato.stanford.edu/entries/vagueness/)也可能给出一系列候选命题，而无法确定哪一个才是被表达的那个命题。）尽管如此，我们仍能而且经常使用像「每个圆都是椭圆」和「十三是质数」这样的句子来表达一个有效论证的前提。当然，数学例子是特殊情况。这是一种非典型的场景，这时我们试着去很清楚地思考很抽象的事物的。但完美推理和冒险推理之间的区别并不局限于这种场景下。因此，在关注有效推理这一现象时，为求简单我们在一开始的讨论中可以尝试把语言使用的语境敏感性抽象掉。
+一个显著的复杂性在于，在日常对话中，语境对于「给定的句子表达的是哪个命题」而言很重要。例如，「 Pat 睡着了」有时可用于表达真前提，有时可用于表达假前提。某个说话者可能使用「我累了」来表达一个假命题，而另一个说话者同时用同一句子表达了一个真命题。怎样才算累了的标准在不同的对话中也可能不同。各类语境敏感性在典型的话语中无处不在。更有甚者，即便给定语境也可能并不表达唯一的命题，如「他是秃的」这样的句子。（代词可能没有指称对象；即使有，「秃头」的[模糊性](https://plato.stanford.edu/entries/vagueness/)也可能给出一系列候选命题，而无法确定哪一个才是被表达的那个命题。）尽管如此，我们仍能而且经常使用像「每个圆都是椭圆」和「十三是质数」这样的句子来表达一个有效论证的前提。当然，数学例子是特殊情况。这是一种非典型的场景，这时我们试着去很清楚地思考很抽象的事物的。但完美推理和冒险推理之间的区别并不局限于这种场景下。因此，在关注有效推理这一现象时，为求简单我们在一开始的讨论中可以尝试把语言使用的语境敏感性抽象掉。
 
 另一个复杂性的来源是，在谈论推理时，人们可能谈论的是
 
@@ -66,43 +66,44 @@
 
 2. 每个政客都是狡诈的，且每个参议员都是政客。所以每个参议员都是狡诈的。
 
-Again, the first premise seems to have several parts, each of which is a part of the second premise or the conclusion. (In English, the indefinite article in ‘Every senator is a politician’ cannot be omitted; likewise for ‘Every politician is a liar’. But at least for now, let’s assume that in examples like these, ‘a’ does not itself indicate a propositional constituent.) [Aristotle](https://plato.stanford.edu/entries/aristotle/), predating the Stoics, noted that conditional claims like the following are sure to be true: if (the property of) being a politician belongs to every senator, and being deceitful belongs to every politician, then being deceitful belongs to every senator. Correspondingly, the inference pattern below is valid.
+同样地，第一个前提看上去有多个组分，其组分出现在了第二个前提或结论中。[亚里士多德](https://plato.stanford.edu/entries/aristotle/)比斯多葛学派更早地指出了，类似这样的条件句肯定为真：若每个参议员都具有政客性（property of being a politician），而每个政治家都具有狡诈性，那么每个参议员都具有狡诈性。相应地，下面的推理模式是有效的。
 
-Every *S* is *P*, and every *P* is *D*; so every *S* is *D*.
+每个 S 都是 P ，且每个 P 都是 D ；所以每个 S 都是 D 。
 
-And inference (2) seems to be valid because its parts exhibit this pattern. Aristotle discussed many such forms of inference, called syllogisms, involving propositions that can be expressed with quantificational words like ‘every’ and ‘some’. For example, the syllogistic patterns below are also valid.
+推理 (2) 似乎因其组分表现出了这种模式而有效。亚里士多德讨论了许多这样的推理形式，称为三段论，它涉及可以用量化词（如「每个」和「一些」）表达的命题。例如，下面的三段论模式也是有效的。
 
-Every *S* is *P*, and some *S* is *D*; so some *P* is *D*.
+* 每个 *S* 都是 *P* ，而有的 *S* 是 *D* ；所以有的 *P* 是 *D* 。
 
-Some *S* is *P*, and every *P* is *D*; so some *S* is *D*.
+* 有的 *S* 是 *P* ，而每个 *P* 都是 *D* ；所以有的 *S* 是 *D* 。
 
-Some *S* is not *P*, every *D* is *P*; so some *S* is not *D*.
+* 有的 *S* 不是 *P* ，而每个 *D* 都是 *P*；所以有的 *S* 不是 *D*
 
-We can rewrite the last two, so that each of the valid syllogisms above is represented as having a first premise of the form ‘Every *S* is *P*’.
+我们可以重写后两个来使得有效三段论的第一个前提具有「每个 *S* 都是 *P* 」的形式。
 
-Every *S* is *P*, and some *D* is *S*; so some *D* is *P*.
+* 每个 *S* 都是 *P*，而有的 *D* 是 *S* ；所以有的 *D* 是 *P*
+* 每个 *S* 都是 *P*，而有的 *D* 不是 *P* ；所以有的 *D* 不是 *S*
 
-Every *S* is *P*, and some *D* is not *P*; so some *D* is not *S*.
+但无论如何表达推理，一个重要之处在于变量（此处用斜体表示）会取作命题的特定<u>成分</u>（range over certain *parts* of propositions）。直觉上，像「政客」这样的普通名词和像「狡诈」这样的形容词是一种泛项（general term），因为它们可以适用于不止一个人。而许多命题显然包含相应的泛元素。例如，命题「每个参议员都很富有」包含两个这样的元素，它们都和涉及该命题的推理的有效性有关。
 
-But however the inferences are represented, the important point is that the variables—represented here in italics—range over certain *parts* of propositions. Intuitively, common nouns like ‘politician’ and adjectives like ‘deceitful’ are general terms, since they can apply to more than one individual. And many propositions apparently contain correspondingly general elements. For example, the proposition that every senator is wealthy contains two such elements, both relevant to the validity of inferences involving this proposition.
+因此，命题似乎具有一种带来推理有效性的结构（即使忽略前提/结论中的命题成分 [^1] ）。在这个意义上，即使是原子命题也具有逻辑形式。正如亚里士多德所指出的，一对这样的命题之间可由一些有趣的方式关联起来。如果每个 *S* 都是 *P* ，那么有的 *S* 是 *P* 。（为此，假设至少有一个 *S* 。）如果没有 *S* 是 *P*，那么有的 *S* 不是 *P* 。可以肯定的是，要么每个 *S* 都是 *P*，要么有的 *S* 不是 *P* ；并且这两个命题中有一个为真时另一个就为假。类似地，下面两个命题不可能同时为真：每个 *S* 都是 *P* ；没有 *S* 是 *P* 。但无法肯定其中必有一真：也许有的 *S* 是 *P* 而有的 *S* 不是 *P* 。这种逻辑关系网给出了一个强烈的暗示：这里讨论的命题都包含一个量化的元素和两个泛元素；在某些情况下，还包含一个否定元素（参见[经典逻辑](https://plato.stanford.edu/entries/logic-classical/)）。这引出了一个问题：其他命题是否也有类似的结构。
 
-Propositions thus seem to have structure that bears on the validity of inferences, even ignoring premises/conclusions with propositional parts. In this sense, even atomic propositions have logical form. And as Aristotle noted, pairs of such propositions can be related in interesting ways. If every *S* is *P*, then some *S* is *P*. (For these purposes, assume there is at least one *S*.) If no *S* is *P*, then some *S* is not *P*. It is certain that either every *S* is *P* or some *S* is not *P*; and whichever of these propositions is true, the other is false. Similarly, the following propositions cannot both be true: every *S* is *P*; and no *S* is *P*. But it isn’t certain that either every *S* is *P*, or no *S* is *P*. Perhaps some *S* is *P*, and some *S* is not *P*. This network of logical relations strongly suggests that the propositions in question contain a quantificational element and two general elements—and in some cases, an element of negation; see [logic: classical](https://plato.stanford.edu/entries/logic-classical/). This raises the question of whether other propositions have a similar structure.
+[^1]: 原文为「even ignoring premises/conclusions with propositional parts」
 
-##  2. Propositions and Traditional Grammar
+##  2. 命题与传统语法
 
-Consider the proposition that Vega is a star, which can figure in inferences like (8).
+> 译者注：本节中一些英文术语对应多个中文译名，译者根据上下文作了选择。如 subject 可以是主语、主词、主项、主题，predicate可以取谓词、谓语、谓项或拉丁语 *[praedicātum](https://en.wiktionary.org/wiki/praedicatum#Latin)* 之意。其中一些可能注重语法，一些注重语义。对原作者而言，使其混淆起来可能是刻意的。
 
-- (8)
+考虑命题「织女一是一颗星」，它出现在（8）这样的推理中。
 
-  Every star is purple, and Vega is a star; so Vega is purple.
+8. 任何星都是紫的，织女一是一颗星；所以织女一是紫的。
 
-Aristotle’s logic focused on quantificational propositions; and as we shall see, this was prescient. But on his view, propositions like the conclusion of (8) still exemplify a subject-predicate structure that is shared by at least many of the sentences we used to express propositions. And one can easily formulate the schema ‘every *S* is *P*, and *n* is *S*; so *n* is *P*’, where the new lower-case variable is intended to range over proposition-parts of the sort indicated by names. (On some views, discussed below, a name like ‘Vega’ is a complex quantificational expression; though unsurprisingly, such views are tendentious.)
+亚里士多德逻辑专注于量化了的命题；如我们将看到的，这是有先见之明的。但按他的观点， (8) 的结论这样的命题仍然体现了一种主-谓结构，这种结构至少存在于许多用来表达命题的句子中。人们可以很容易地表述出「每个 *S* 都是 *P*，且 *n* 是 *S* ；所以 *n* 是 *P* 」的模式，其中新的小写变量用于表示由名称来指示的那种命题成分。（根据下面讨论的一些观点，像「织女一」这样的名称是一个复杂的量化表达式；尽管毫不意外地也会有许多人不采用这种观点。）
 
-Typically, a declarative sentence can be divided into a subject and a predicate: ‘Every star / is purple’, ‘Vega / is a star’, ‘Some politician / lied’, ‘The brightest planet / is visible tonight’, etc. Until quite recently, it was widely held that this grammatical division reflects a corresponding kind of logical structure: the subject of a proposition (i.e., what the proposition is about) is a target for predication. On this view, both ‘Every star’ and ‘Vega’ indicate subjects of propositions in (8), while ‘is’ introduces predicates. Aristotle would have said that in the premises of (8), being purple is predicated of every star, and being a star is predicated of Vega. Later theorists emphasized the contrast between general terms like ‘star’ and singular terms like ‘Vega’, while also distinguishing terms from syncategorematic expressions (e.g., ‘every’ and ‘is’) that can combine with terms to form complex subjects and predicates, including ‘will lie’, ‘can lie’, and ‘may have lied’. But despite the complications, it seemed clear that many propositions have the following canonical form: Subject-copula-Predicate; where a copula links a subject, which may consist of a quantifier and a general term, to a general term. Sentences like ‘Every star twinkles’ can be paraphrased with sentences like ‘Every star is a twinkling thing’. This invites the suggestion that ‘twinkles’ is somehow an abbreviation for ‘is a twinkling thing’.
+通常，一个陈述句可以分割为一个主语和一个谓语：「每颗星/都是紫的」、「织女一/是一颗星」、「某个政客/说了谎」、「最亮的行星/在今晚可见」……直到最近，人们都普遍认为这种语法划分反映了一种相应的逻辑结构：命题的主题（即「命题是关于什么的」）是谓述（predication）的对象。按这种观点，在 (8) 中，「每颗星」和「织女一」都表示着命题的主题，而「是」则引导了谓词。亚里士多德会说，在 (8) 的前提中，「是紫的」是在描述（is predicated of）「每颗星」，「是一颗星」是在描述「织女一」。后来的理论家强调「星」这样的泛项与「织女一」这样的单称项之间的对比，同时也将项与附庸（syncategorematic）表达式区分开来，附庸表达式（如「每个」和「是」）可以与项结合形成复杂主项、复杂谓项——包括「将撒谎」、「会撒谎」和「可能撒了谎」。许多命题虽然复杂却似乎都有以下标准形式：主语-系词-谓语（subject-copula-predicate）；其中系词将主语（可能由量词和泛项组成）与泛项联系起来。像「每颗星都闪烁」这样的句子可以改写为「每颗星都是闪烁之物」这样的句子。这让人觉得「闪烁」在某种程度上是「是闪烁之物」的简略化。
 
-The proposition that not only Vega twinkles, which seems to contain the proposition that Vega twinkles, presumably includes elements that are indicated with ‘only’ and ‘not’. Such examples invite the hypothesis that all propositions are composed of terms along with a relatively small number of syncategorematic elements, and that complex propositions can be reduced to canonical propositions that are governed by Aristotelian logic. This is not to say that all propositions were, or could be, successfully analyzed in this manner. But via this strategy, medieval logicians were able to describe many impeccable infereces as instances of valid forms. And this informed their discussions of how logic is related to grammar.
+「不仅织女一闪烁」这个命题似乎包含了「织女星闪烁」这个命题，想必也包含由「仅」和「不」表示的元素。这样的例子引出了这样的假设：所有命题都由项以及相对较少的附庸元素组成，而复杂命题可以简化为由亚里士多德逻辑支配的典范命题。这并不是说所有命题都通过、或者都能通过这种方式来成功分析。但通过这种策略，中世纪逻辑学家得以将许多的无懈可击推理描述为有效形式的实例。由此可了解他们关于逻辑与语法关系的讨论。
 
-Many viewed their project as an attempt to uncover principles of a mental language common to all thinkers. Aristotle had said, similarly, that spoken sounds symbolize “affections of the soul.” From this perspective, one expects to find some differences between propositions and overt sentences. If ‘Every star twinkles’ expresses a proposition that contains a copula, then spoken languages mask certain aspects of logical structure. [William of Ockham](https://plato.stanford.edu/entries/ockham/) held that a mental language would have no need for Latin’s declensions, and that logicians could ignore such aspects of spoken language. The ancient Greeks were aware of sophisms like the following: that dog is a father, and that dog is yours; so that dog is your father. This bad inference cannot share its form with the superficially parallel but impeccable variant: that dog is a mutt, and that mutt is yours; so that dog is your mutt. (See Plato, Euthydemus 298 d-e.) So the superficial features of sentences are not infallible guides to the logical forms of propositions. Still, the divergence was held to be relatively minor. Spoken sentences have structure; they are composed, in systematic ways, of words. And the assumption was that spoken sentences reflect the major aspects of propositional form, including a subject-predicate division. So while there is a distinction between the study of valid inference and the study of sentences used in spoken language, the connection between logic and grammar was thought to run deep. This suggested that the logical form of a proposition just is the grammatical form of some (perhaps mental) sentence.
+许多人将他们的课题视为一种尝试，它试图揭示所有思考者所共有的心理语言原则。亚里士多德也曾表达过类似的「口语声音标志（symbolize）“灵魂的情感（affections of the soul）”」。如此看来，在命题和表观的句子间也许能找到一些差异。如果「每颗星都闪烁」表达的是一个包含系词的命题，那就说明口语在某些方面掩盖了逻辑结构。[奥卡姆的威廉](https://plato.stanford.edu/entries/ockham/)认为：心理语言应该是不需要拉丁语的变格的；逻辑学家可以忽略口语的这些方面。古希腊人能意识到如下推理的诡辩性：那只狗是父亲，那只狗是你的；所以那只狗是你的父亲。这一糟糕的推理与另一表面上看起来差不多：「那只狗是混种狗，那只混种狗是你的；所以那只狗是你的混种狗。」（参见柏拉图《欧绪德谟篇》 298 d-e），但后者是无懈可击的，两个推理不可能共享同一个形式。因此，句子的表面特征并不能绝对正确地导向命题的逻辑形式。不过，这种分歧被认为相对较小。口语句子有结构；它由单词以系统化的方式构成。并且假设口语句子反映了命题形式的主要方面，包括主语-谓语分割。因此，虽然有效推理的研究和口语中使用的句子的研究之间存在差异，但人们认为逻辑和语法之间的联系是深刻的。这暗示命题的逻辑形式正是某种（也许是心理语言的）句子在语法上的形式。
 
 ## 3. Motivations for Revision
 
