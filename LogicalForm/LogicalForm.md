@@ -105,15 +105,13 @@
 
 许多人将他们的课题视为一种尝试，它试图揭示所有思考者所共有的心理语言原则。亚里士多德也曾表达过类似的「口语声音标志（symbolize）“灵魂的情感（affections of the soul）”」。如此看来，在命题和表观的句子间也许能找到一些差异。如果「每颗星都闪烁」表达的是一个包含系词的命题，那就说明口语在某些方面掩盖了逻辑结构。[奥卡姆的威廉](https://plato.stanford.edu/entries/ockham/)认为：心理语言应该是不需要拉丁语的变格的；逻辑学家可以忽略口语的这些方面。古希腊人能意识到如下推理的诡辩性：那只狗是父亲，那只狗是你的；所以那只狗是你的父亲。这一糟糕的推理与另一表面上看起来差不多：「那只狗是混种狗，那只混种狗是你的；所以那只狗是你的混种狗。」（参见柏拉图《欧绪德谟篇》 298 d-e），但后者是无懈可击的，两个推理不可能共享同一个形式。因此，句子的表面特征并不能绝对正确地导向命题的逻辑形式。不过，这种分歧被认为相对较小。口语句子有结构；它由单词以系统化的方式构成。并且假设口语句子反映了命题形式的主要方面，包括主语-谓语分割。因此，虽然有效推理的研究和口语中使用的句子的研究之间存在差异，但人们认为逻辑和语法之间的联系是深刻的。这暗示命题的逻辑形式正是某种（也许是心理语言的）句子在语法上的形式。
 
-## 3. Motivations for Revision
+## 3. 革新的动机
 
-Towards the end of the eighteenth century, Kant could say (without much exaggeration) that logic had followed a single path since its inception, and that “since Aristotle it has not had to retrace a single step.” He also said that syllogistic logic was “to all appearance complete and perfect.” But this was exuberance. The successes also highlighted problems that had been recognized.
+十八世纪末，康德对逻辑学作了一个毫不夸张的描述：逻辑自诞生以来就一直沿着一条道路前行，「自亚里士多德以来，它就再也没有走过一步回头路」。他还说三段论逻辑是“从一切表象上看来完备而完美的”。但这就有些算是得意之言了。其成功也将一些人们已认识到的问题凸显出来了。
 
-Some valid schemata are reducible to others, in that any inference of the reducible form can be revealed as valid (with a little work) given other schemata. Consider (9).
+一些有效模式可以约化为其他模式，因为可以（轻易地）发现任何具有这种可约形式的推理都具有该约化后的有效模式。考虑（9）：
 
-- (9)
-
-  If Al ran then either Al did not run or Bob did not swim, and Al ran; so Bob did not swim.
+9. 若 Al 跑了步，则要么 Al 没有跑步，要么 Bob 没有游泳；且 Al 跑了。所以 Bob 没有游泳。
 
 Assume that ‘Al did not run’ negates ‘Al ran’, while ‘Bob did not swim’ negates ‘Bob swam’. Then (9) is an instance of the following valid form: if **A** then either not-**A** or not-**B**, and **A**; so not-**B**. But we can treat this as a derived form, by showing that any instance of this form is valid given two (intuitively more basic) Stoic inference forms: if **the first** then **the second**, and **the first**, so **the second**; either not **the first** or not **the second**, and **the first**; so not **the second**. For suppose we are given the following premises: **A**; and if **A**, then either not-**A** or not-**B**. We can safely infer that either not-**A** or not-**B**; and since we were given **A**, we can safely infer not-**B**. Similarly, the syllogistic schema (10) can be treated as a derived form.
 
@@ -169,7 +167,7 @@ As medieval logicians knew, propositions expressed with relative clauses also po
 
 Here, the direction of valid inference is from ‘young doctor’ to ‘doctor’, as if the inference is governed by the (default) inference rule that licenses replacement of ‘young doctor’ with the less restrictive predicate ‘doctor’. One can say that the default direction of implication, from more restrictive to less restrictive predicates, has been inverted twice—once by ‘No’, and once by ‘every’. But one wants a systematic account of propositional structure that explains the net effect; see Ludlow (2002) for further discussion. Sommers (1982) offers a strategy for recoding and extending classical logic, in part by exploiting an idea suggested by [Leibniz](https://plato.stanford.edu/entries/leibniz/) (and arguably Pāṇini): a relational sentence like ‘Juliet loved Romeo’ somehow combines an active-voice sentence with a passive-voice sentence, perhaps along the lines of ‘Juliet loved, *and thereby* Romeo was loved’; cp. [section nine](https://plato.stanford.edu/entries/logical-form/#sem). But one way or another, quantifiers need to be characterized in a way that captures their general logical role—and not just their role as potential subjects of Aristotelian propositions—if impeccability is to be revealed as a matter of form. Quantifiers are not simply devices for creating schemata like ‘Every *S* is *P*’, into which general terms like ‘politician’ and ‘deceitful’ can be inserted. Instances of ‘*S*’ and ‘*P*’ can themselves have quantificational structure and relational constituents.
 
-## 4. Frege and Formal Language
+## 4. 弗雷格与形式语言
 
  [Gottlob Frege](https://plato.stanford.edu/entries/frege/) showed how to resolve these difficulties for classical logic in one fell swoop. His system of logic, published in 1879 and still in use (with notational modifications), was arguably the single greatest contribution to the subject. So it is significant that on Frege’s view, propositions do not have subject-predicate form. Indeed, his leading idea was that propositions have “function-argument” structure. Frege thereby drew a substantial distinction between logical form and grammatical form as traditionally conceived. This had a major impact on subsequent discussions of thought and its relation to language. Though before turning to details, it is worth taking a slight detour to note that Frege did not think of functions as abstract *objects* like numbers.
 
@@ -281,7 +279,7 @@ For suppose it is false that some individual has the following conjunctive prope
 
 Frege also made a different kind of contribution, which would prove important, to the study of propositions. In early work, he spoke as though propositional constituents were the relevant functions and (ordered n-tuples of) entities that such functions map to truth-values. But he later refined this view in light of his distinction between Sinn and Bedeutung; see the entry on [Frege](https://plato.stanford.edu/entries/frege/). The Sinn of an expression was said to be a “way of presenting” the corresponding Bedeutung, which might be an entity (with truth-values as special cases of entities) or a function from (ordered n-tuples of) entities to truth-values. The basic idea is that two names, like ‘Hesperus’ and ‘Phosphorus’, can present the same Bedeutung in different ways; in which case, the Sinn of the first name differs from the Sinn of the second. Given this distinction, we can think of ‘Hesperus’ as an expression that presents Venus *as* the evening star, while ‘Phosphorus’ presents Venus *as* the morning star. Likewise, we can think of ‘is bright’ as an expression that presents a certain function in a certain way, and ‘Hesperus is bright’ as a sentence that presents its truth-value in a certain way—i.e., as the value of the function in question given the argument in question. From this perspective, propositions are sentential ways of presenting truth-values, and proposition-parts are subsentential ways of presenting functions and arguments. Frege could thus distinguish the proposition that Hesperus is bright from the proposition that Phosphorus is bright, even though the two propositions are alike with regard to the relevant function and argument. Likewise, he could distinguish the trivial proposition Hesperus is Hesperus from the (apparently nontrivial) proposition Hesperus is Phosphorus. This is an attractive view. For intuitively, the inference ‘Hesperus is Hesperus, so Hesperus is Phosphorus’ is not an instance of the following obviously valid schema: **A**, so **A**. But this raised questions about what the Sinn of an expression really is, what “presentation” could amount to, and what to say about a name with no Bedeutung.
 
-## 5. Descriptions and Analysis
+## 5. 摹状与分析
 
 Frege did not distinguish (or at least did not emphasize any distinction between) names like ‘John’ and descriptions like ‘the boy’ or ‘the tall boy from Canada’. Initially, both kinds of expression seem to indicate arguments, as opposed to functions. So one might think that the logical form of ‘The boy sang’ is simply ‘S(b)
 
@@ -445,33 +443,34 @@ then the inference is an instance of the schema ‘A∧B
 
 ’. Only when these contributions are “spelled out,” perhaps in terms of set-intersection, would the validity of the inference be manifest; see, e.g., King (2002). So even if grammar and logic do not diverge in this case, one might say that grammatical structure does not *reveal* the logical structure. From this perspective, further analysis of ‘the’ is required. Those who are skeptical of an analytic/synthetic distinction can say that it remains more a decision than a discovery to say that ‘Some boy sang’ follows from ‘The boy sang’. In general, and especially with regard to aspects of propositional form indicated with individual words, issues about logical form are connected with issues about the [analytic-synthetic distinction](https://plato.stanford.edu/entries/analytic-synthetic/).
 
-## 8. Transformational Grammar
+## 8. 转换语法
 
-Even given restricted quantifiers (and acceptance of second-order logical forms), the subject/predicate structure of ‘Juliet / likes every doctor’ diverges from the corresponding formula below.
+即使给定受限量词（并接受二阶逻辑形式），「Juliet/喜欢每个医生」的主/谓结构也与下面相应的公式不同。
 
-∀y:Doctor(y)[Likes(Juliet,y)]
+$$∀y:\text{医生}(y)[\text{喜欢}(\text{Juliet},y)]$$
 
-We can rewrite ‘Likes(Juliet,y)
+我们可以将 $\text{喜欢}(\text{Juliet},y)$ 重写为 $\text{喜欢}(y)$ 来反映一种结合次序：「喜欢」是与一个直接宾语结合而形成一个短语，而这个短语再与主语结合。但「每个」似乎是动词短语「喜欢每个医生」的语法成分，且它似乎也作为所表达命题的主要量词。在自然语言中，「喜欢」和「每个医生」构成一个短语。但就逻辑形式而言，「喜欢」似乎是与「Juliet」以及一个变量相结合来形成了一个复杂谓词，而这个谓词又是高阶谓词「每个」的外部参数。对「有的男孩喜欢每个医生」和
 
-’ as ‘[Likes(y)](Juliet)
+$$[\exists x:\text{男孩}(x)][\forall y:\text{医生}(y)]\{喜欢(x,y)\}$$
 
-’, to reflect the fact that ‘likes’ combines with a direct object to form a phrase, which in turn combines with a subject. But this does not affect the main point: ‘every’ seems to be a grammatical constituent of the verb phrase ‘likes every doctor’; yet it also seems to indicate the main quantifier of the expressed proposition. In natural language, ‘likes’ and ‘every doctor’ form a phrase. But with respect to logical form, it is as if ‘likes’ combines with ‘Juliet’ and a variable to form a complex predicate that is in turn an external argument of the higher-order predicate ‘every’. Similar remarks apply to ‘Some boy likes every doctor’ and
+也可作出类似的评论。
 
-‘[∃x:Boy(x)][∀y:Doctor(y)]{Likes(x,y)}’.
+可见这种失配似乎存在于量化直接宾语、以及其他具有量化成分的复杂谓词的例子中，这些地方困扰着中世纪逻辑学家。
 
-So it seems that mismatches remain in the very places that troubled medieval logicians—viz., quantificational direct objects and other examples of complex predicates with quantificational constituents.
+蒙太古 (1970, 1974) 则表明：这些失配并未排除自然语言句子与相应命题结构之间的系统性联系。抛开技术细节抽象地说，可以指定一种算法将包含一个或多个量化表达式（如「每个医生」）的自然语言句子与一个或多个弗雷格逻辑形式配对起来。这是一个显著的进步。蒙太古的工作（及其后续发展）表明，弗雷格的逻辑与「自然语言中的量化结构具有系统性的语义」的想法是相容的。事实上，人们可以使用弗雷格的形式化工具来研究此类构造。蒙太古坚持认为，自然语言的语法对于（他认为的）真实语义而言是误导性的。按这种观点，对有效推理的研究仍然是在表明语法掩盖了命题思维的结构。但在思考逻辑与语法的关系时，不应该对语法采用过于天真的观点。
 
-Montague (1970, 1974) showed that these mismatches do not preclude systematic connections of natural language sentences with the corresponding propositional structures. Abstracting from the technical details, one can specify an algorithm that pairs each natural language sentence that contains one or more quantificational expressions like ‘every doctor’ with one or more Fregean logical forms. This was a significant advance. Together with subsequent developments, Montague’s work showed that Frege’s logic was compatible with the idea that quantificational constructions in natural language have a systematic semantics. Indeed, one can use Frege’s formal apparatus to study such constructions. Montague maintained that the syntax of natural language was, nonetheless, misleading for purposes of (what he took to be) real semantics. On this view, the study of valid inference still suggests that grammar disguises the structure of propositional thought. But in thinking about the relation of logic to grammar, one should not assume a naive conception of the latter.
+例如，句子的语法形式不必由其单词的线型顺序决定。借助括号来消除歧义的话，我们可以区分如下两个同音的句子：
 
-For example, the grammatical form of a sentence need not be determined by the linear order of its words. Using brackets to disambiguate, we can distinguish the sentence ‘Mary [saw [the [boy [with binoculars]]]]’—whose direct object is ‘the boy with binoculars’—from the homophonous sentence ‘Mary [[saw [the boy]] [with binoculars]]’, in which ‘saw the boy’ is modified by an adverbial phrase. The first implies that the boy had binoculars, while the second implies that Mary used binoculars to see the boy. Even if this distinction is not audibly marked, there is a significant difference between modifying a noun (like ‘boy’) with a prepositional phrase and modifying a verb phrase (‘saw the boy’). More generally, grammatical structure need not be obvious. Just as it may take work to discover the kind(s) of structure that propositions exhibit, so it may take work to discover the kind(s) of structure that sentences exhibit. And many studies of natural language suggest a rich conception of grammatical form that diverges from traditional views; see especially Chomsky (1957, 1964, 1965, 1981, 1986, 1995). So we need to ask how logical forms are related to actual grammatical forms, which linguists try to discover, since these may differ importantly from any hypothesized grammatical forms that may be suggested by casual reflection on spoken language. Appearances may be misleading with respect to both grammatical and logical form, leaving room for the possibility that these notions of structure are not so different after all.
+* 「Mary [saw [the [boy [with binoculars]]]]」，其直接宾语是「the boy with binoculars」
+* 「Mary [[saw [the boy]] [with binoculars]]」，其中「saw the boy」被副词短语修饰。
 
-A leading idea of modern linguistics is that at least some grammatical structures are transformations of others. Put another way, linguistic expressions often appear to be displaced from positions canonically associated with certain grammatical relations that the expressions exhibit. For example, the word ‘who’ in (17) is apparently associated with the internal (direct object) argument position of the verb ‘saw’.
+前者意味着男孩拥有双筒望远镜，而后者则表示 Mary 用双筒望远镜看男孩。这种区别在语音上没有标记来体现，但用介词短语修饰名词（如「boy」）和修饰动词短语（「saw the boy」）之间存在着显著的差异。更一般地说，语法结构不必是显而易见的。正如发现命题所展现的结构类型需付出努力一样，发现句子所展现的结构类型也需付出努力。许多自然语言研究暗示了：语法形式的概念并不是像传统观点所认为的那样，而是内涵相当丰富的；可参见乔姆斯基 (1957, 1964, 1965, 1981, 1986, 1995) 。因此，我们需要问逻辑形式与语言学家试着去发现的实际语法形式有何关系，语言学家试图发现实际语法形式，因为实际语法形式可能与从（基于口语的）随意思考分析出的的各种假设的语法形式之间存在重大的不同。表象可能会误导关于语法和逻辑形式的理解，与此同时这些结构概念可能也并没有太大的不同。
 
-- (17)
+现代语言学的一个主要观点是，至少有些语法结构是其他语法结构的变形。换句话说，表达式会表现出特定的语法关系，而语言表达式往往看上去并不处于这种语法关系所给出的典范位置上。例如，(17) 中的单词「who」显然与动词「saw」的内部论元（直接宾语）的位置相关。
 
-  Mary wondered who John saw
+17. Mary wondered who John saw
 
-Correspondingly, (17) can be glossed as ‘Mary wondered which person is such that John saw that person’. This invites the hypothesis that (17) reflects a transformation of the “Deep Structure” (17D) into the “Surface Structure” (17S); where the subscripts indicate that ‘who’ bears a certain grammatical relation, often called “movement,” to the coindexed position.
+相应地，(17) 可以解释为「Mary wondered which person is such that John saw that person」 。由此可引出这样的假设：(17) 所反映的是「深层结构」(17D) 向「表层结构」(17S) 的转换：
 
 - (17D)
 
@@ -479,11 +478,13 @@ Correspondingly, (17) can be glossed as ‘Mary wondered which person is such th
 
 - (17S)
 
-  {Mary [wondered [who*i* {John [saw ( … )*i* ]}]]}
+  {Mary [wondered [who<sub>*i*</sub> {John [saw ( … )<sub>*i*</sub> ]} ]]}
 
-The idea is that the embedded clause in (17D) has the same form as ‘John saw Bill’, but in (17S), ‘who’ has been displaced from its original argument position. Similar remarks apply to the question ‘Who did John see’ and other question-words like ‘why’, ‘what’, ‘when’, and ‘how’.
+其中的下标的意思是：「who」具有一种的特定语法关系，通常称这种关系为到相同下标处的“移动”。
 
-One might also try to explain the synonymy of (18) and (19) by positing a common deep structure, (18D).
+这一思想是说，(17D) 中嵌入的从句具有和「John saw Bill」相同的形式，但在 (17S) 中，「who」已从其原本的论元位置移位。类似的说法也适用于问句「Who did John see」和其他疑问词如「why」、「what」、「when」、「how」。
+
+还可以试着提出一个共同的深层结构 (18D) 来解释 (18) 和 (19) 的同义性。
 
 - (18)
 
@@ -499,47 +500,37 @@ One might also try to explain the synonymy of (18) and (19) by positing a common
 
 - (18S)
 
-  {John*i* [seems { ( _ )*i* [to like Mary]}]}
+  {John<sub>*i*</sub> [seems { ( _ )<sub>*i*</sub> [to like Mary]}]}
 
-If every English sentence needs a subject of some kind, (18D) must be modified: either by displacing ‘John’, as in (18S); or by inserting a pleonastic subject, as in (19). Note that in (19), ‘It’ does not indicate an argument; compare ‘There’ in ‘There is something in the garden’. Appeal to displacement also lets one distinguish the superficially parallel sentences (20) and (21).
+如果每个英语句子都需要某种主语，则 (18D) 就必须修改：要么像 (18S) 中那样将「John」移位，要么像 (19) 中那样插入一个冗赘主语（形式主语）。注意 (19) 中的「It」并不指示一个论元，类似于「There is something in the garden」中的「There」。借由这种移位的分析，我们得以将两个表面上相似的句子 (20) 和 (21) 明显地区分开来：
 
-- (20)
+20. John is easy to please
 
-  John is easy to please
+21. John is eager to please
 
-- (21)
-
-  John is eager to please
-
-If (20) is true, John is easily pleased. In which case, it is easy (for someone) to please John; and here, ‘it’ is pleonastic. But if (21) is true, John is eager that he please someone or other. This asymmetry is effaced by representations like ‘Easy-to-please(John)’ and ‘Eager-to-please(John)’. The contrast is made manifest, however, with (20S) and (21S); where ‘e’ indicates an unpronounced argument position.
+ (20) 为真意味着约翰是易于取悦的。这种情况下「it is easy (for someone) to please John」（其中的「It」是冗赘的）。但 (21) 为真则意味着「John is eager that he please someone or other」。这种不对称性被「Easy-to-please(John)」和「Eager-to-please(John)」这样的表述抹消了。然而这种对比在 (20S) 和 (21S) 中则很明显地体现了出来：
 
 - (20S)
 
-  {John*i* [is easy { e [to please ( _ )*i* ]}]}
+  {John<sub>*i*</sub> [is easy { e [to please ( _ )<sub>*i*</sub> ]} ]}
 
 - (21S)
 
-  {John*i* [is eager { ( _ )*i* [to please e ]}]}
+  {John<sub>*i*</sub> [is eager { ( _ )<sub>*i*</sub> [to please e ]} ]}
 
-It may be that in (21S), which does not mean that it is eager for John to please someone, ‘John’ is grammatically linked to the coindexed position without being displaced from that position. But whatever the details, the “surface subject” of a sentence can be the object of a verb embedded within the main predicate, as in (20S). Of course, such hypotheses about grammatical structure require defense. But Chomsky and others have long argued that such hypotheses are needed to account for various facts concerning human linguistic capacities; see, e.g., Berwick et.al. (2011). As an illustration of the kind of data that is relevant, note that while (22–24) are perfectly fine as expressions of English, (25) is not.
+其中「e」表示一个不发音的论元位置。
 
-- (22)
+(21S) 中，「John」在语法上和那个由同下标标记的位置关联了起来，但其没有移位。（注意 (21S) 的含义并不是「it is eager for John to please someone」。）但无论细节如何，句子的“表面主语”也可以成为从句中那个动词的宾语，如 (20S) 。当然，这种关于语法结构的假设还有待辩护。但乔姆斯基等人长期以来一直认为，需要这样的假设来解释各种有关人类语言能力的事实；可参见 Berwick et. al. (2011) 。作为对此的说明，清注意：下面的 (22-24) 作为英语表达式是完全没问题的，但 (25) 却不是。
 
-  The boy who sang was happy
+22. The boy who sang was happy
 
-- (23)
+23. Was the boy who sang happy
 
-  Was the boy who sang happy
+24. The boy who was happy sang
 
-- (24)
+25. *Was the boy who happy sang
 
-  The boy who was happy sang
-
-- (25)
-
-  *Was the boy who happy sang
-
-This suggests that the auxiliary verb ‘was’ can be displaced from some positions but not others. That is, while (23S) is a permissible transformation of (22D), (25S) is not a permissible transformation of (24D).
+这表明有些位置可以作为助动词「was」移位的起点，但有些位置不行。也就是说，虽然 (23S) 是 (22D) 的合法变换，但 (25S) 不是 (24D) 的合法变换。
 
 - (22D)
 
@@ -547,7 +538,7 @@ This suggests that the auxiliary verb ‘was’ can be displaced from some posit
 
 - (23S)
 
-  Was*i* {[the [boy [who sang]]] [ ( _ )*i* happy]}
+  Was<sub>*i*</sub> {[the [boy [who sang]]] [ ( _ )<sub>*i*</sub> happy]}
 
 - (24D)
 
@@ -555,17 +546,15 @@ This suggests that the auxiliary verb ‘was’ can be displaced from some posit
 
 - (25S)
 
-  *Was*i* {[the [boy [who [ ( _ )*i* happy]]]] sang}
+  *Was*<sub>*i*</sub>* {[the [boy [who [ ( _ )<sub>*i*</sub> happy]]]] sang}
 
-In (25), the asterisk indicates intuitive deviance; in (25S), it indicates the hypothesized source of this deviance—viz., that the auxiliary verb cannot be displaced from the embedded relative clause. The ill-formedness of (25S) is striking, since one can sensibly ask whether or not the boy who was happy sang. One can also ask whether or not (26) is true. But (27) is not the yes/no question corresponding to (26).
+(25) 中的星号表示这句话于直觉不容。 (25S) （假设性地）指出了这种不容的来源：助动词不能从内层的关系从句中移位出来。若 (25S) 不合法将会是件惊人的事，因为我们完全可以询问那个快乐的男孩是否唱了歌。人们也可以问 (26) 是否为真，不过 (27) 并非与 (26) 相对应的是/非问句。
 
-- (26)
+26. The boy who was lost kept crying
 
-  The boy who was lost kept crying
+27. Was the boy who lost kept crying
 
-- (27)
-
-  Was the boy who lost kept crying
+相反，(27) 是与“输了的男孩一直在哭”相对应的是非问句，它具有意想不到的含义。因此，我们想要解释一下为什么 (27) 不能具有与 (26) 相对应的解释。但是，如果“was”不能从 (26) 中的位置移开，那么关于 (27) 的这个“否定事实”正是人们所期望的，就像在以下逻辑上可能但语法上不合法的结构中一样：*Was*i* {[[[[[( _ )*i* 输了的男孩]]]] [一直在哭]}。
 
 Rather, (27) is the yes/no question corresponding to ‘The boy who lost was kept crying’, which has an unexpected meaning. So we want some account of why (27) cannot have the interpretation corresponding to (26). But this “negative fact” concerning (27) is precisely what one would expect if ‘was’ cannot be displaced from its position in (26), as in the following logically possible but grammatically illicit structure: *Was*i* {[the [boy [who [( _ )*i* lost]]]] [kept crying]}.
 
