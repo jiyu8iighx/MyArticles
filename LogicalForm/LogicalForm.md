@@ -554,7 +554,7 @@ $$[\exists x:\text{男孩}(x)][\forall y:\text{医生}(y)]\{喜欢(x,y)\}$$
 
 27. Was the boy who lost kept crying
 
-相反，(27) 是与“输了的男孩一直在哭”相对应的是非问句，它具有意想不到的含义。因此，我们想要解释一下为什么 (27) 不能具有与 (26) 相对应的解释。但是，如果“was”不能从 (26) 中的位置移开，那么关于 (27) 的这个“否定事实”正是人们所期望的，就像在以下逻辑上可能但语法上不合法的结构中一样：*Was*i* {[[[[[( _ )*i* 输了的男孩]]]] [一直在哭]}。
+(27) 相对应的是/非问句是「The boy who lost was kept crying」，但它的含义是预期之外的。因此，我们想要解释一下为什么 (27) 不能具有与 (26) 相对应的解释。但是，如果“was”不能从 (26) 中的位置移开，那么关于 (27) 的这个“否定事实”正是人们所期望的，就像在以下逻辑上可能但语法上不合法的结构中一样：*Was*i* {[[[[[( _ )*i* 输了的男孩]]]] [一直在哭]}。
 
 Rather, (27) is the yes/no question corresponding to ‘The boy who lost was kept crying’, which has an unexpected meaning. So we want some account of why (27) cannot have the interpretation corresponding to (26). But this “negative fact” concerning (27) is precisely what one would expect if ‘was’ cannot be displaced from its position in (26), as in the following logically possible but grammatically illicit structure: *Was*i* {[the [boy [who [( _ )*i* lost]]]] [kept crying]}.
 
